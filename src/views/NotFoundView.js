@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-const Container = styled('div')`
+const Container = styled("div")`
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -10,12 +10,12 @@ const Container = styled('div')`
   width: 100%;
 `;
 
-const ErrorCode = styled('div')`
+const ErrorCode = styled("div")`
   font-weight: bold;
   font-size: 92px;
 `;
 
-const ErrorMessage = styled('div')`
+const ErrorMessage = styled("div")`
   font-weight: 32px;
 `;
 

@@ -56,7 +56,9 @@
     ]
   },
   "husky": {
-    "pre-commit": "lint-staged"
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "browserslist": [
     ">0.15%",

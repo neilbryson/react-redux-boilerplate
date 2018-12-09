@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import PropTypes from 'prop-types';
+import React from "react";
+import styled from "styled-components";
+import PropTypes from "prop-types";
 
-import clickable from '../hoc/clickable';
+import clickable from "../hoc/clickable";
 
 const propTypes = {
   label: PropTypes.string.isRequired,
@@ -10,11 +10,11 @@ const propTypes = {
 };
 
 const defaultProps = {
-  label: 'Button',
+  label: "Button",
   onClick: null,
 };
 
-const Container = styled('button')`
+const Container = styled("button")`
   border: none;
   background-color: #1976d2;
   height: 20px;

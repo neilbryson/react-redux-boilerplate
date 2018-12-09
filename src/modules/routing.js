@@ -1,4 +1,4 @@
-const PREFIX = '@route';
+const PREFIX = "@route";
 
 export const route = routeName => `${PREFIX}/${routeName}`;
 
