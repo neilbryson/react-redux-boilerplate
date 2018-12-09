@@ -1,11 +1,11 @@
-import React, { PureComponent } from "react";
-import { connect } from "react-redux";
+import React, { PureComponent } from 'react';
+import { connect } from 'react-redux';
 
-import InitialHome from "../layouts/InitialHome";
+import InitialHome from '../layouts/InitialHome';
 
 class HomeView extends PureComponent {
   render() {
-    if (this.props.kind === "pop") {
+    if (this.props.kind === 'pop') {
       return <div>You just pressed the Back button.</div>;
     }
 

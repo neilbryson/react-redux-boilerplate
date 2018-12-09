@@ -1,17 +1,17 @@
-import React, { PureComponent } from "react";
+import React, { PureComponent } from 'react';
 
 const clickable = Component =>
   class WrappedComponent extends PureComponent {
     onClick = e => {
       const { onClick } = this.props;
 
-      if (onClick && typeof onClick === "function") {
+      if (onClick && typeof onClick === 'function') {
         onClick(e);
       }
     };
 
     onKeyDown = e => {
-      if (e.key === " " || e.key === "Enter") {
+      if (e.key === ' ' || e.key === 'Enter') {
         this.onClick(e);
       }
     };
