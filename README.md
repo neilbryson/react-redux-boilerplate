@@ -2,6 +2,10 @@
 Boilerplate for React applications with CSS-in-JS, routing, linting, and testing. 
 Extends [Create React App](https://github.com/facebook/create-react-app).
 
+[![Build Status](https://travis-ci.org/neilbryson/react-redux-boilerplate.svg?branch=master)](https://travis-ci.org/neilbryson/react-redux-boilerplate)
+[![dependencies Status](https://david-dm.org/neilbryson/react-redux-boilerplate/status.svg)](https://david-dm.org/neilbryson/react-redux-boilerplate)
+[![devDependencies Status](https://david-dm.org/neilbryson/react-redux-boilerplate/dev-status.svg)](https://david-dm.org/neilbryson/react-redux-boilerplate?type=dev)
+
 # Usage
 Just clone this repository and run `npm install`. It's already set-up for use in your new project !
 
