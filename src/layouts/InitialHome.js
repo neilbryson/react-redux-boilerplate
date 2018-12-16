@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
+import { localise } from 'react-locale-hoc';
 
 import Button from '../components/Button';
 
@@ -18,17 +19,21 @@ class InitialHome extends PureComponent {
   };
 
   render() {
+    const { t } = this.props;
+
     return (
       <>
-        <Header>It works !</Header>
-        <div>Now, try clicking the button below</div>
+        <Header>{t('it_works')}</Header>
+        <div>{t('instructions')}</div>
         <Button label="Click me" onClick={this.onClick} />
       </>
     );
   }
 }
 
-export default connect(
-  state => ({}),
-  { navigateTo }
-)(InitialHome);
+export default localise(
+  connect(
+    state => ({}),
+    { navigateTo }
+  )(InitialHome)
+);

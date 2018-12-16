@@ -1,10 +1,13 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import styled from 'styled-components';
+import { LocaleProvider } from 'react-locale-hoc';
 
 import configureStore from './configureStore';
 
 import RootView from './views/RootView';
+
+import locales from './helpers/locales';
 
 const { store } = configureStore({});
 
@@ -16,9 +19,11 @@ const Container = styled('div')`
 
 const App = () => (
   <Provider store={store}>
-    <Container>
-      <RootView />
-    </Container>
+    <LocaleProvider strings={locales}>
+      <Container>
+        <RootView />
+      </Container>
+    </LocaleProvider>
   </Provider>
 );
 

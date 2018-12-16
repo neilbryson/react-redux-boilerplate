@@ -1,5 +1,9 @@
 import React from 'react';
 
-const NextView = () => <div>Now, try pressing the Back button of the browser.</div>;
+import { localise } from 'react-locale-hoc';
 
-export default NextView;
+const NextView = ({ t }) => {
+  return <div>{t('next_instructions')}</div>;
+};
+
+export default localise(NextView);

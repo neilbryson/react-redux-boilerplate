@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import clickable from 'react-clickable-hoc';
 
 const propTypes = {
   label: PropTypes.string.isRequired,
@@ -32,4 +31,4 @@ const Button = ({ label, ...other }) => <Container {...other}>{label}</Container
 Button.propTypes = propTypes;
 Button.defaultProps = defaultProps;
 
-export default clickable(Button);
+export default Button;
