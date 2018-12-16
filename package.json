@@ -1,7 +1,7 @@
 {
   "name": "@neilbryson/react-redux-boilerplate",
   "author": "Neil Bryson Cargamento <neilbryson@live.com>",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "license": "MIT",
   "homepage": "https://github.com/neilbryson/react-redux-boilerplate",
   "repository": {
@@ -20,7 +20,7 @@
     "prop-types": "^15.6.2",
     "react": "~16.6.3",
     "react-dom": "~16.6.3",
-    "react-locale-hoc": "~0.2.1",
+    "react-locale-hoc": "~0.2.2",
     "react-redux": "~6.0.0",
     "react-scripts": "~2.1.1",
     "redux": "~4.0.1",
